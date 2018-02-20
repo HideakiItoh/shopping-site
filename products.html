@@ -33,29 +33,45 @@
         <div class="container">
             <div class="row header_in">
                 <h1>
-                    <div class="four columns">
+                    <div class="four columns logo">
                         <a href="index.html">
                             <img src="images/top/logo.png" alt="APPLE BERRY" srcset="images/top/logo@2x.png 2x">
                         </a>
                     </div>
                     <div class="eight columns">
+                        
                         <div class="nav_pc">
                             <ul class="nav_list">
-                            <li class="nav_item"><img src="images/top/menu_login.png" alt="LOGIN"></li>
-                            <li class="nav_item"><img src="images/top/menu_cart.png" alt="CART"></li>
-                            <li class="nav_item"><img src="images/top/menu_mypage.png" alt="MY PAGE"></li>
-                            <li class="nav_item"><img src="images/top/menu_guide.png" alt="SHOPPING GUIDE"></li>
-                            <li class="nav_item"><img src="images/top/facebook.png"></img></li>
-                            <li class="nav_item"><img src="images/top/insta.png"></img></li>
-                        </ul>
+                                <li class="nav_item"><img src="images/top/menu_login.png" alt="LOGIN"></li>
+                                <li class="nav_item"><img src="images/top/menu_cart.png" alt="CART"></li>
+                                <li class="nav_item"><img src="images/top/menu_mypage.png" alt="MY PAGE"></li>
+                                <li class="nav_item"><img src="images/top/menu_guide.png" alt="SHOPPING GUIDE"></li>
+                                <li class="nav_item"><img src="images/top/facebook.png"></img></li>
+                                <li class="nav_item"><img src="images/top/insta.png"></img></li>
+                            </ul>
                         </div>
+                        
+                        <div class="nav_sp">
+                            <ul class="nav_sp_list">
+                                <li class="nav_item"><img src="images/top_sp/fb.png" srcset="images/top_sp/fb@2x.png 2x"></img></li>
+                                <li class="nav_item"><img src="images/top_sp/insta.png" srcset="images/top_sp/insta@2x.png 2x"></img></li>
+                                <li id="nav_menu" class="nav_item"><img src="images/top_sp/menu_icon.png" srcset="images/top_sp/menu_icon@2x.png 2x"></img></li>
+                                    <ul class="nev_menu_ul" style="display:none;">
+                                        <li class="nev_menu_list"><a href="#">LOGIN</a></li>
+                                        <li class="nev_menu_list"><a href="#">CART</a></li>
+                                        <li class="nev_menu_list"><a href="#">MY PAGE</a></li>
+                                        <li class="nev_menu_list"><a href="#">SHOPPING GUIDE</a></li>
+                                    </ul>
+                            </ul>
+                        </div>
+                        
                     </div>
                  </h1>
             </div>
         </div>
     </header>
 
-    <div class="container">
+    <div class="container products_sp">
         <div class="row">
             <div id="main_contents" class="nine columns">
                 
@@ -111,16 +127,17 @@
                             <div class="three columns title"><img class="u-max-full-width" src="images/products/title_price.png"></div>
                             <div class="nine columns price">¥1,000<span>(tax in)</span></div>
                         </div>
-                        <div class="four columns"><img class="u-max-full-width" src="images/products/add_to_cart.png"></div>
+                        <div class="four columns addcart_cp"><img class="u-max-full-width" src="images/products/add_to_cart.png"></div>
                         <div class="eight columns hr2">
                             <hr class="columns">
                             <div class="three columns title"><img class="u-max-full-width" src="images/products/title_quantity.png"></div>
                             <div class="nine columns price"><input type="text"></div>
                         </div>
                         <hr class="columns sub">
+                        <div class="columns addcart_sp"><img class="u-max-full-width" src="images/products/add_to_cart.png"></div>
                         <div class="four columns title">商品説明</div>
                         <hr class="columns sub">
-                        <div class="columns title">■説明タイトル説明タイトル説明タイトル</div>
+                        <div class="columns title title_sp">■説明タイトル説明タイトル説明タイトル説明タイトル</div>
                         <div class="columns products_text">
                             説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト
                             <br>説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト説明テキスト
@@ -143,7 +160,7 @@
                 <!-- end products_area -->
                 
                 <div id="popular_area" class="columns">
-                    <img class="u-max-full-width subtitle" src="images/list/recent_pro_pc.png" alt="RECENT PRODUCTS">
+                    <div class="subtitle_list">　</div>
                     <div class="columns item">
                         <img class="u-max-full-width item_img" src="images/top/item_07.jpg" alt="item">
                         <div class="item_text">商品名が入ります商品名が入ります商品名が入ります</div>
@@ -163,7 +180,7 @@
                 <!-- end popular_area -->
                 
                 <div id="guide_area" class="columns">
-                    <img class="u-max-full-width subtitle" src="images/top/title_guide.png" alt="SHOHPPING GUIDE">
+                    <div class="subtitle">　</div>
                     <div class="columns guide">
                         <span>お届けについて</span>
                         <div><img src="images/top/otodoke_banner.png" alt="item"></div>
@@ -199,14 +216,24 @@
                 
                 <div id="navi_area" class="row columns">
                     <div class="navi columns">
-                        <div id="pagelink_img" class="eleven columns"></div>
-                        <div class="one columns nexticon_img"></div>
+                        <div id="pagelink_img" class="ten columns"></div>
+                        <div id="next1" class="two columns nexticon_img" style="display:block;"></div>
+                        <div id="down1" class="two columns downicon_img" style="display:none;"></div>
                     </div>
+                    <ul class="navi_li columns" style="display:none;">
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                        <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
+                    </ul>
                     <div class="navi columns">
-                        <div id="categories_img" class="eleven columns"></div>
-                        <div class="one columns nexticon_img"></div>
+                        <div id="categories_img" class="ten columns"></div>
+                        <div id="next2" class="two columns nexticon_img" style="display:block;"></div>
+                        <div id="down2" class="two columns downicon_img" style="display:none;"></div>
                     </div>
-                    <ul class="navi_li columns" style="display:;">
+                    <ul class="navi_li columns" style="display:none;">
                         <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
                         <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
                         <li><a class="nexticon_img" href="#">カテゴリー名</a></li>
@@ -244,7 +271,7 @@
     </div>
     
     <footer class="container">
-        <div class="row"><img src="images/top/pagetop.png" alt="item"></div>
+        <div class="row page_top"><img src="images/top/pagetop.png" alt="item"></div>
         <hr>
         <div class="footer_text">
             <a>特定商取引に基づく表記</a>
@@ -260,6 +287,22 @@
             $('.thumbnails img').click(function(){
             var $thisImg = $(this).attr('src');
             $('.main_image img').attr({src:$thisImg});
+            });
+            $(".navi.columns").on("click", function() {
+                $(this).next().slideToggle();
+                var $next = $(this).children('.nexticon_img').attr('id');
+                var $down = $(this).children('.downicon_img').attr('id');
+                var $nextStyle = $('#'+$next).attr('style');
+                if($nextStyle == 'display:block;'){
+                    $('#'+$next).attr({style:'display:none;'});
+                    $('#'+$down).attr({style:'display:block;'});
+                } else {
+                    $('#'+$next).attr({style:'display:block;'});
+                    $('#'+$down).attr({style:'display:none;'});
+                }    
+            });
+            $("#nav_menu").click(function(){
+                $(".nev_menu_ul").slideToggle();
             });
         });
     </script>

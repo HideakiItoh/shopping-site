@@ -1,0 +1,325 @@
+@charset "UTF-8";
+html {
+  font-size: 62.5%; }
+
+body {
+  background: #f9f8f6;
+  font-size: 10px;
+  font-size: 1rem;
+  font-family: "ヒラギノ角ゴ Pro W3", "Hiragino Kaku Gothic Pro", メイリオ, Verdana, "ＭＳ Ｐゴシック", sans-serif;
+  font-weight: bold;
+  color: #000000; }
+
+header .header_in {
+  margin: 10px 0; }
+header .nav_pc .nav_list {
+  list-style: none;
+  margin-bottom: 0;
+  float: right; }
+header .nav_pc .nav_item {
+  position: relative;
+  float: left;
+  margin-bottom: 0;
+  margin-right: 10px; }
+
+#catch_area {
+  margin: 0px; }
+  #catch_area .pankuzu {
+    height: 30px;
+    width: 100%;
+    background-color: #e2ddd4;
+    color: #887f69;
+    padding: 10px 0 10px 5px;
+    margin-bottom: 10px; }
+    #catch_area .pankuzu img {
+      height: 100%; }
+    #catch_area .pankuzu span {
+      margin-left: 5px; }
+
+#news_area {
+  margin: 10px 0; }
+  #news_area .control {
+    color: #ffffff;
+    margin: 0;
+    margin-top: 10px; }
+    #news_area .control .con_button {
+      background-color: #887f69;
+      width: 100px;
+      height: 30px;
+      text-align: center;
+      padding-top: 7px; }
+    #news_area .control #con_next {
+      float: right; }
+
+#popular_area {
+  margin: 10px 0; }
+
+#guide_area {
+  margin: 10px 0; }
+
+.subtitle {
+  margin-bottom: 10px; }
+
+.item {
+  background: #ffffff;
+  margin: 1.2px;
+  padding: 10px;
+  width: 32.8%;
+  text-align: center; }
+  .item .item_img {
+    background-size: auto; }
+  .item .item_text {
+    text-align: left; }
+  .item .item_amount {
+    text-align: left;
+    margin: 5px 0; }
+
+.guide {
+  background: #ffffff;
+  color: #887f69;
+  margin: 1.5px;
+  padding: 10px;
+  width: 49%;
+  height: 230px;
+  text-align: left; }
+  .guide span {
+    font-size: 12px;
+    font-size: 1.2rem; }
+  .guide img {
+    max-width: 60%;
+    box-sizing: border-box;
+    margin-top: 10px; }
+  .guide p {
+    margin: 0px;
+    margin-top: 10px; }
+  .guide .guide_text {
+    margin: 0px;
+    margin-top: 5px;
+    color: #000000; }
+  .guide .card_img {
+    max-width: 100%; }
+
+#sub_contents {
+  margin-left: 2%; }
+
+#search_area {
+  background-color: #ffffff;
+  padding: 20px; }
+  #search_area #form_search {
+    width: 100%;
+    height: 30px;
+    margin: 0px;
+    background-color: #e2ddd4; }
+    #search_area #form_search .input {
+      vertical-align: top;
+      box-sizing: border-box; }
+    #search_area #form_search #form_input {
+      border: none;
+      margin: 0px;
+      padding: 0 0 0 5px;
+      height: 100%;
+      background-color: #e2ddd4; }
+    #search_area #form_search input::-webkit-input-placeholder {
+      color: #b0b0b0;
+      font-style: italic; }
+    #search_area #form_search #form_submit {
+      height: 100%;
+      margin: 0px;
+      padding: 0px;
+      background-image: url("../images/top/search_icon.png");
+      border: none;
+      background-position: center;
+      background-size: auto 50%;
+      background-repeat: no-repeat;
+      background-color: #e2ddd4; }
+
+#navi_area {
+  margin: 0;
+  padding: 0; }
+  #navi_area .navi {
+    width: 100%;
+    height: 40px;
+    background-color: #887f69;
+    margin: 10px 0 0 0;
+    padding: 10px; }
+    #navi_area .navi #pagelink_img {
+      height: 100%;
+      background-image: url("../images/top/pagelink.png");
+      border: none;
+      background-position: left;
+      background-size: auto 50%;
+      background-repeat: no-repeat; }
+    #navi_area .navi #categories_img {
+      height: 100%;
+      background-image: url("../images/top/categories.png");
+      border: none;
+      background-position: left;
+      background-size: auto 35%;
+      background-repeat: no-repeat; }
+  #navi_area .nexticon_img {
+    height: 100%;
+    background-image: url("../images/top/next_icon.png");
+    border: none;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0; }
+  #navi_area .downicon_img {
+    height: 100%;
+    background-image: url("../images/top/down_icon.png");
+    border: none;
+    background-position: right;
+    background-size: auto;
+    background-repeat: no-repeat;
+    margin: 0; }
+  #navi_area .navi_li {
+    width: 100%;
+    background: white;
+    margin: 0;
+    padding: 0; }
+    #navi_area .navi_li li {
+      list-style: none;
+      margin: 0;
+      padding: 10px;
+      border-bottom: 1px solid #eee; }
+      #navi_area .navi_li li a {
+        display: block;
+        font-size: 8px;
+        text-decoration: none;
+        color: #000000; }
+
+#info_area {
+  margin: 0;
+  padding: 0; }
+  #info_area .info_bar {
+    width: 100%;
+    height: 40px;
+    background-color: #887f69;
+    margin: 10px 0 0 0;
+    padding: 10px; }
+    #info_area .info_bar #about_img {
+      height: 100%;
+      background-image: url("../images/top/about.png");
+      border: none;
+      background-position: left;
+      background-size: auto 35%;
+      background-repeat: no-repeat; }
+    #info_area .info_bar #shopinfo_img {
+      height: 100%;
+      background-image: url("../images/top/shop_info.png");
+      border: none;
+      background-position: left;
+      background-size: auto 35%;
+      background-repeat: no-repeat; }
+  #info_area .info_item {
+    width: 100%;
+    padding: 10px 10px 20px 10px;
+    margin: 0px;
+    background-color: #ffffff;
+    text-align: center; }
+    #info_area .info_item .info_item_img {
+      background-size: cover;
+      background-position: center center;
+      height: 100px;
+      width: 100%; }
+    #info_area .info_item .info_text {
+      text-align: left; }
+    #info_area .info_item .info_more {
+      padding: 20px 35px 0 35px;
+      margin: 0; }
+      #info_area .info_item .info_more img {
+        background-size: cover;
+        background-position: center center;
+        width: 100%; }
+
+#products_area {
+  background-color: #ffffff;
+  margin: 0; }
+  #products_area #products_contents {
+    padding: 30px; }
+    #products_area #products_contents .products_title {
+      font-size: 14px;
+      font-size: 1.4rem;
+      margin-bottom: 10px; }
+    #products_area #products_contents .products_subtitle {
+      text-align: right;
+      color: #e2ddd4;
+      margin-bottom: 10px; }
+    #products_area #products_contents .main_image {
+      margin: 0; }
+      #products_area #products_contents .main_image img {
+        background-size: cover;
+        width: 100%; }
+    #products_area #products_contents table {
+      color: #887f69;
+      font-size: 8px;
+      font-size: 0.8rem; }
+      #products_area #products_contents table .table_bar {
+        background-color: #e2ddd4; }
+      #products_area #products_contents table .matrix {
+        width: 33%;
+        text-align: center;
+        border: solid 1px #b0b0b0; }
+      #products_area #products_contents table .matrix2 {
+        width: 66%;
+        text-align: left;
+        border: solid 1px #b0b0b0; }
+      #products_area #products_contents table input {
+        margin: 0;
+        vertical-align: middle; }
+    #products_area #products_contents .hr2 {
+      margin: 0; }
+      #products_area #products_contents .hr2 hr {
+        margin: 0; }
+      #products_area #products_contents .hr2 .price {
+        font-style: italic;
+        color: #9d1a2d;
+        font-size: 20px;
+        font-size: 2rem;
+        margin-top: 5px;
+        padding-left: 30px; }
+        #products_area #products_contents .hr2 .price span {
+          color: #000000;
+          font-size: 10px;
+          font-size: 1rem; }
+      #products_area #products_contents .hr2 input {
+        padding: 0;
+        height: 30px;
+        width: 80px;
+        border-radius: 0;
+        margin: 5px 0 0 0; }
+  #products_area .title {
+    margin: 15px 0;
+    color: #887f69;
+    font-size: 12px;
+    font-size: 1.2rem; }
+  #products_area hr {
+    color: #887f69;
+    margin: 10px 0; }
+  #products_area .sub {
+    margin: 0 0 10px 0; }
+  #products_area .products_text {
+    font-size: 10px;
+    font-size: 1rem;
+    margin: 0 0 10px 0; }
+
+footer {
+  text-align: center; }
+  footer img {
+    float: right;
+    margin-top: 10px; }
+  footer hr {
+    color: #887f69;
+    margin: 10px 0; }
+  footer .footer_text {
+    margin-top: 10px;
+    margin-bottom: 15px; }
+    footer .footer_text a {
+      color: #000000; }
+    footer .footer_text span {
+      margin: 0 10px; }
+  footer p {
+    color: #b0b0b0;
+    font-weight: normal; }
+
+/*# sourceMappingURL=style.css.map */
